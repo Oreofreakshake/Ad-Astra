@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div>
         <div className=" flex justify-between">
-            <div className="p-4 w-44 font-bold text-3xl text-white">Ad Astra</div>
+            <div className="p-3 w-44 font-bold text-3xl text-white">Ad Astra</div>
             <div className="flex justify-between align-to p-2">
                 <Buttons>Jobs</Buttons>
                 <Buttons>Get hired</Buttons>
