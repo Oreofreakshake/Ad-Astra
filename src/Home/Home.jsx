@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 const Home = () => {
     return (
-        <div className="bg-blue-400 p-5">
+        <div className="p-7 bg-gradient-to-r from-green-500 to-blue-500 shadow-none hover:shadow-lg">
             <Navbar />
         </div>
     );
