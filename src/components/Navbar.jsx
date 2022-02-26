@@ -26,7 +26,7 @@ const Buttons = (props) => {
 
 const Text = (props) => {
     return (
-        <div className=" shadow-none flex justify-center p-3 w-29 h-12 cursor-pointer font-semibold text-base rounded-lg text-white hover:text-indigo-900 mr-3 ">
+        <div className=" shadow-none flex justify-center p-3 w-29 h-12 cursor-pointer font-semibold text-base rounded-lg text-white mr-3 hover:underline">
             {props.children}
         </div>
     );

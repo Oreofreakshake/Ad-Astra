@@ -4,7 +4,10 @@ const Jobs = () => {
     return (
         <div>
             <div>
-                <div className="flex p-24 justify-center align-middle">
+                <div className="flex justify-center align-middle mt-9">
+                    <div className="text-4xl font-bold text-white">Job pool</div>
+                </div>
+                <div className="flex pr-24 pl-24 pb-24 pt-12 justify-center align-middle">
                     <div className="w-56 h-52 bg-indigo-400 hover:bg-indigo-600 cursor-pointer rounded-2xl mr-14">
                         <div className="p-12 w-full h-9 text-center font-bold text-3xl text-white mb-3">
                             Private
